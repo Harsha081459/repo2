@@ -37,13 +37,12 @@ The vehicle is modeled using discrete-time double-integrator dynamics, and the p
 ## 📁 File Structure
 OPTICORS/
 │
+|
 ├── implementation.ipynb # Main implementation and visualizations
+|
 ├── Project_Report.pdf # Detailed exploration results and methodology
+|
 └── README.md # Documentation (this file)
-
-
----
-
 
 
 ### 🚀 Setup & Execution
