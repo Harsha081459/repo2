@@ -53,22 +53,24 @@ OPTICORS/
    jupyter notebook
 
 Run all cells sequentially
+Interactive Inputs
+During execution, you will be prompted for simulation parameters. (Press ENTER to accept defaults)
+
+Default parameters:
+
+Time steps:-       0.1 s
+
+Horizon:-          50 steps
+
+Obstacle Start:-   2.5 s
+
+Obstacle End:-     4.5 s
+
+
 
 ---
 
 
-Interactive Inputs
-During execution, you will be prompted for simulation parameters. Press ENTER to accept defaults.
-
-Default parameters:
-
-Time steps: 0.1 s
-
-Horizon: 50 steps
-
-Obstacle Start: 2.5 s
-
-Obstacle End: 4.5 s
 
 📊 Expected Outputs
 1. Solver Logs
