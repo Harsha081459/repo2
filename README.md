@@ -42,18 +42,20 @@ OPTICORS/
 - README.md # Documentation (this file)
 
 
-### 🚀 Setup & Execution
-Extract the OPTICORS.zip folder
+---
 
-Open a terminal in the extracted directory
+## 🚀 Setup & Execution
 
-Launch Jupyter Notebook:
-
-bash
-jupyter notebook
-Open implementation.ipynb
+1. Extract the `OPTICORS.zip` folder
+2. Open a terminal in the extracted directory
+3. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
 
 Run all cells sequentially
+
+---
+
 
 Interactive Inputs
 During execution, you will be prompted for simulation parameters. Press ENTER to accept defaults.
