@@ -75,56 +75,18 @@ Obstacle End:-     4.5 s
 📊 Expected Outputs
 
 1. Solver Logs
-Optimality status
-Runtime comparison (OSQP vs SCS)
+  -Optimality status
+  -Runtime comparison (OSQP vs SCS)
 
 2. Plots & Visualizations
-Runtime comparison bar chart
-KKT condition verification (primal & dual feasibility)
-Trajectory plot showing lane change and real obstacle zone
-Lagrange multiplier bar plot indicating obstacle sensitivity
+  -Runtime comparison bar chart
+  -KKT condition verification (primal & dual feasibility)
+  -Trajectory plot showing lane change and real obstacle zone
+  -Lagrange multiplier bar plot indicating obstacle sensitivity
 
 
---
+---
 
-
-🔬 Methodology & Solver Details
-Objective Function
-Minimize:
-
-∑
-k
-=
-1
-N
-∥
-u
-k
-∥
-2
-k=1
-∑
-N
-​
- ∥u 
-k
-​
- ∥ 
-2
- 
-representing control energy.
-
-Constraints
-Linear dynamics constraints
-
-Velocity and acceleration bounds
-
-Obstacle avoidance constraints
-
-Slack variables added for soft feasibility
-
-Modeling Framework
-Implementation in CVXPY
 
 ## 🛠 Prerequisites & Libraries
 
