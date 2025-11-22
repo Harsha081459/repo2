@@ -44,23 +44,9 @@ OPTICORS/
 
 ---
 
-## 🛠 Prerequisites & Libraries
 
-The project uses **Python 3**.
 
-### Required Libraries
-
-- `numpy`
-- `cvxpy`
-- `matplotlib`
-- `time` (built-in)
-
-### Installation
-
-```bash
-pip install numpy cvxpy matplotlib
-
-🚀 Setup & Execution
+### 🚀 Setup & Execution
 Extract the OPTICORS.zip folder
 
 Open a terminal in the extracted directory
@@ -138,6 +124,22 @@ Slack variables added for soft feasibility
 
 Modeling Framework
 Implementation in CVXPY
+
+## 🛠 Prerequisites & Libraries
+
+The project uses **Python 3**.
+
+### Required Libraries
+
+- `numpy`
+- `cvxpy`
+- `matplotlib`
+- `time` (built-in)
+
+### Installation
+
+```bash
+pip install numpy cvxpy matplotlib
 
 Solvers Used
 OSQP (primary QP solver due to speed & robustness)
