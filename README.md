@@ -73,19 +73,20 @@ Obstacle End:-     4.5 s
 
 
 📊 Expected Outputs
+
 1. Solver Logs
 Optimality status
-
 Runtime comparison (OSQP vs SCS)
 
 2. Plots & Visualizations
 Runtime comparison bar chart
-
 KKT condition verification (primal & dual feasibility)
-
 Trajectory plot showing lane change and real obstacle zone
-
 Lagrange multiplier bar plot indicating obstacle sensitivity
+
+
+--
+
 
 🔬 Methodology & Solver Details
 Objective Function
